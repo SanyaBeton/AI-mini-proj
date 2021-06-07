@@ -1,0 +1,27 @@
+.buttons{
+	width: 50%;
+	height: 40%;
+	position: absolute;
+}
+.whitebtn{
+	cursor: pointer;
+	height: 100%;
+	width: 13%;
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	border-radius: 0px 0px 5px 5px;
+	border: none;
+	opacity: 0,6;
+	background: white; 
+	background: linear-gradient(lightgray, white);
+	box-shadow: inset 1px 1px 6px 0px black, inset -1px -1px 6px 0px black, 1px 0px gray, -1px 0px gray;
+}
+button:hover{
+	opacity: 1;
+	background: white;
+	box-shadow: inset 1px 1px 7px 0px rgba(0,0,0,1), inset -1px -1px 7px 0px rgba(0,0,0,1), 1px 0px gray, -1px 0px gray;
+}
+.whitebtn:active{
+	transform: translateY(5px);
+}
